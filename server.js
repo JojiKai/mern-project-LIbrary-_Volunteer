@@ -14,7 +14,7 @@ const port = process.env.PORT || 8080; // process.env.PORT是Heroku自動設定
 
 // 連接到 MongoDB 資料庫
 mongoose
-  .connect("process.env.MONGODB_CONNECTION") // 指定 MongoDB 的連接 URL
+  .connect(process.env.MONGODB_CONNECTION) // 指定 MongoDB 的連接 URL
   .then(() => {
     console.log("連結到mongodb..."); // 成功連結時的提示
   })
