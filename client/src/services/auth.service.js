@@ -1,7 +1,8 @@
 // 登入有關
 
 import axios from "axios";
-const API_URL = "http://localhost:8080/api/user";
+const API_URL =
+  "https://project-mern-library-volunteer-b10982d95102.herokuapp.com/api/user";
 
 class AuthService {
   login(email, password) {
