@@ -3,7 +3,7 @@ import axios from "axios";
 
 // 定義 API 的基礎 URL
 const API_URL =
-  "https://project-mern-library-volunteer-b10982d95102.herokuapp.com//api/courses";
+  "https://project-mern-library-volunteer-b10982d95102.herokuapp.com/api/courses";
 
 class CourseService {
   // 定義一個方法，用於向伺服器發送 POST 請求以新增課程
